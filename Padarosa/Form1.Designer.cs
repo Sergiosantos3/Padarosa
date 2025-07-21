@@ -98,6 +98,7 @@
             this.txbSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbSenha.Location = new System.Drawing.Point(345, 162);
             this.txbSenha.Name = "txbSenha";
+            this.txbSenha.PasswordChar = '•';
             this.txbSenha.Size = new System.Drawing.Size(288, 31);
             this.txbSenha.TabIndex = 5;
             // 
@@ -112,6 +113,7 @@
             this.btnEntar.TabIndex = 6;
             this.btnEntar.Text = "Entrar";
             this.btnEntar.UseVisualStyleBackColor = false;
+            this.btnEntar.Click += new System.EventHandler(this.btnEntar_Click);
             // 
             // Form1
             // 

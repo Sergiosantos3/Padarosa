@@ -72,6 +72,7 @@
             this.btnGestaoProdutos.TabIndex = 2;
             this.btnGestaoProdutos.Text = "Gestão de Produtos";
             this.btnGestaoProdutos.UseVisualStyleBackColor = false;
+            this.btnGestaoProdutos.Click += new System.EventHandler(this.btnGestaoProdutos_Click);
             // 
             // btnLcmComandas
             // 
@@ -85,6 +86,7 @@
             this.btnLcmComandas.TabIndex = 3;
             this.btnLcmComandas.Text = "Lançamento de Comandas";
             this.btnLcmComandas.UseVisualStyleBackColor = false;
+            this.btnLcmComandas.Click += new System.EventHandler(this.btnLcmComandas_Click);
             // 
             // btnCaixa
             // 
@@ -98,6 +100,7 @@
             this.btnCaixa.TabIndex = 4;
             this.btnCaixa.Text = "Caixa";
             this.btnCaixa.UseVisualStyleBackColor = false;
+            this.btnCaixa.Click += new System.EventHandler(this.btnCaixa_Click);
             // 
             // btnGestaoUsuarios
             // 
@@ -111,6 +114,7 @@
             this.btnGestaoUsuarios.TabIndex = 5;
             this.btnGestaoUsuarios.Text = "Usuários";
             this.btnGestaoUsuarios.UseVisualStyleBackColor = false;
+            this.btnGestaoUsuarios.Click += new System.EventHandler(this.btnGestaoUsuarios_Click);
             // 
             // lblUsuario
             // 

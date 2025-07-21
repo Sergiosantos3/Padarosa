@@ -12,9 +12,37 @@ namespace Padarosa
 {
     public partial class FormMenuPrincipal : Form
     {
-        public FormMenuPrincipal()
+        // Variaveis globais:
+        Model.Usuario usuario;
+        public FormMenuPrincipal(Model.Usuario usuario)
         {
             InitializeComponent();
+            this.usuario = usuario;
+            lblUsuario.Text = $"Você está logado como: {usuario.NomeCompleto}";
+        }
+
+        private void btnGestaoProdutos_Click(object sender, EventArgs e)
+        {
+           FrmGestaoDeProdutos frmGestaoDeProdutos = new FrmGestaoDeProdutos(usuario);
+            frmGestaoDeProdutos.ShowDialog();
+        }
+
+        private void btnLcmComandas_Click(object sender, EventArgs e)
+        {
+            FrmComandas frmComandas = new FrmComandas(usuario);
+            frmComandas.ShowDialog();
+        }
+
+        private void btnCaixa_Click(object sender, EventArgs e)
+        {
+            FrmCaixa frmCaixa = new FrmCaixa(usuario);
+            frmCaixa.ShowDialog();
+        }
+
+        private void btnGestaoUsuarios_Click(object sender, EventArgs e)
+        {
+            FrmUsuarios frmusuarios = new FrmUsuarios(usuario);
+            frmusuarios.ShowDialog();  
         }
     }
 }
