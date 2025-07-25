@@ -42,7 +42,6 @@ namespace Padarosa
                 // Verificar se a tabela tem ao menos uma linha
                 if(resultado.Rows.Count > 0)
                 {
-                    MessageBox.Show("OK");
                     // armazenar as infos do usuarios do obj
                     usuario.NomeCompleto = resultado.Rows[0]["nome_completo"].ToString();
                     usuario.Id = (int)resultado.Rows[0]["id"];
