@@ -46,8 +46,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.grbApagar = new System.Windows.Forms.GroupBox();
-            this.btnApagar = new System.Windows.Forms.Button();
             this.lblApagar = new System.Windows.Forms.Label();
+            this.btnApagar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.grbCadastro.SuspendLayout();
             this.grbEdicao.SuspendLayout();
@@ -251,6 +251,15 @@
             this.grbApagar.TabStop = false;
             this.grbApagar.Text = "Apagar";
             // 
+            // lblApagar
+            // 
+            this.lblApagar.AutoSize = true;
+            this.lblApagar.Location = new System.Drawing.Point(20, 29);
+            this.lblApagar.Name = "lblApagar";
+            this.lblApagar.Size = new System.Drawing.Size(292, 20);
+            this.lblApagar.TabIndex = 1;
+            this.lblApagar.Text = "Selecione o ususario que deseja apagar";
+            // 
             // btnApagar
             // 
             this.btnApagar.BackColor = System.Drawing.Color.Snow;
@@ -264,15 +273,6 @@
             this.btnApagar.Text = "Apagar";
             this.btnApagar.UseVisualStyleBackColor = false;
             this.btnApagar.Click += new System.EventHandler(this.btnApagar_Click);
-            // 
-            // lblApagar
-            // 
-            this.lblApagar.AutoSize = true;
-            this.lblApagar.Location = new System.Drawing.Point(20, 29);
-            this.lblApagar.Name = "lblApagar";
-            this.lblApagar.Size = new System.Drawing.Size(292, 20);
-            this.lblApagar.TabIndex = 1;
-            this.lblApagar.Text = "Selecione o ususario que deseja apagar";
             // 
             // FrmUsuarios
             // 

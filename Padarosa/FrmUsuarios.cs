@@ -90,8 +90,33 @@ namespace Padarosa
             }
             else
             {
-                // Iniciar no bd
-                // Implementar
+                // Inicia a edição no bd
+                this.usuario.NomeCompleto = txbEditarNome.Text;
+                this.usuario.Email = txbEditarEmail.Text;
+                this.usuario.Senha = txbEditarSenha.Text;
+
+                //Executar o .Modificar()
+                if (this.usuario.Modificar())
+                {
+                    MessageBox.Show("Usuário modificado com sucesso! ", "Sucesso!",
+                       MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    AtualizarDgv();
+                    //Limparos campos e desabilitar os grbs
+                    grbEdicao.Enabled = false;
+                    grbApagar.Enabled = false;
+                    txbEditarEmail.Clear();
+                    txbEditarSenha.Clear();
+                    txbCadastrarNome.Clear();
+
+
+                }
+                else
+                {
+                    MessageBox.Show("Falha ao modificar o usuario! ", "Erro!",
+                       MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+
                 AtualizarDgv();
             }
         }
@@ -131,6 +156,7 @@ namespace Padarosa
             this.usuario.NomeCompleto = dgvUsuarios.Rows[linhaSelecionada].Cells[1].Value.ToString();
             this.usuario.Email= dgvUsuarios.Rows[linhaSelecionada].Cells[2].Value.ToString();
             this.usuario.Id = (int)dgvUsuarios.Rows[linhaSelecionada].Cells[0].Value;
+
             // atribuir os dados da linha selecionada no grbEditar
             txbEditarNome.Text = this.usuario.NomeCompleto;
             txbEditarEmail.Text = this.usuario.Email;
