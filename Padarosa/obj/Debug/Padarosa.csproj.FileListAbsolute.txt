@@ -32,3 +32,4 @@ C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.cspro
 C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.exe
 C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.pdb
 C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.FrmUsuarios.resources
+C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.FrmGestaoDeProdutos.resources

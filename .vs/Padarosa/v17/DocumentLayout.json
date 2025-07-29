@@ -3,27 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|c:\\users\\sergio.omsantos\\source\\repos\\padarosa\\padarosa\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\model\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\model\\produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmcomandas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmcomandas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmgestaodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmgestaodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|c:\\users\\sergio.omsantos\\source\\repos\\padarosa\\padarosa\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\model\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|c:\\users\\sergio.omsantos\\source\\repos\\padarosa\\padarosa\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -31,8 +23,28 @@
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmgestaodeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|c:\\users\\sergio.omsantos\\source\\repos\\padarosa\\padarosa\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|c:\\users\\sergio.omsantos\\source\\repos\\padarosa\\padarosa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmusuarios.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmcomandas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmcomandas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmcaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,20 +55,12 @@
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmcomandas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\frmcaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\frmcaixa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\model\\ordemcomanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\model\\ordemcomanda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|solutionrelative:padarosa\\formmenuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{794EC620-D672-4BEB-921E-FD17E456F491}|Padarosa\\Padarosa.csproj|C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\padarosa\\model\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,11 +82,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "FrmGestaoDeProdutos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmGestaoDeProdutos.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmGestaoDeProdutos.cs",
@@ -95,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "FrmUsuarios.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmUsuarios.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmUsuarios.cs",
@@ -108,13 +112,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FrmUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmUsuarios.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmUsuarios.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmUsuarios.cs",
               "RelativeToolTip": "Padarosa\\FrmUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAWwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T19:47:20.081Z",
               "IsPinned": true,
@@ -122,13 +126,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FrmGestaoDeProdutos.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmGestaoDeProdutos.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmGestaoDeProdutos.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmGestaoDeProdutos.cs",
               "RelativeToolTip": "Padarosa\\FrmGestaoDeProdutos.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCwAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAjwGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T19:43:26.983Z",
               "IsPinned": true,
@@ -136,13 +140,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Model\\Usuario.cs",
               "RelativeDocumentMoniker": "Padarosa\\Model\\Usuario.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Model\\Usuario.cs",
               "RelativeToolTip": "Padarosa\\Model\\Usuario.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T19:20:07.072Z",
               "IsPinned": true,
@@ -150,29 +154,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Produtos.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Model\\Produtos.cs",
               "RelativeDocumentMoniker": "Padarosa\\Model\\Produtos.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Model\\Produtos.cs",
               "RelativeToolTip": "Padarosa\\Model\\Produtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAwHAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-30T17:45:55.856Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmUsuarios.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmUsuarios.Designer.cs",
-              "RelativeDocumentMoniker": "Padarosa\\FrmUsuarios.Designer.cs",
-              "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmUsuarios.Designer.cs",
-              "RelativeToolTip": "Padarosa\\FrmUsuarios.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-28T18:23:17.172Z",
               "EditorCaption": ""
             },
             {
@@ -181,7 +172,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Program.cs",
+              "RelativeDocumentMoniker": "Padarosa\\Program.cs",
+              "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Program.cs",
+              "RelativeToolTip": "Padarosa\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T17:49:03.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmUsuarios.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmUsuarios.Designer.cs",
+              "RelativeDocumentMoniker": "Padarosa\\FrmUsuarios.Designer.cs",
+              "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmUsuarios.Designer.cs",
+              "RelativeToolTip": "Padarosa\\FrmUsuarios.Designer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAWwEYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T18:23:17.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "FrmCaixa.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmCaixa.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmCaixa.cs",
@@ -189,37 +206,35 @@
               "RelativeToolTip": "Padarosa\\FrmCaixa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T19:47:45.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T19:47:45.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "FrmComandas.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmComandas.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmComandas.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmComandas.cs [Design]",
               "RelativeToolTip": "Padarosa\\FrmComandas.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T19:34:27.298Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-21T19:34:27.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 6,
               "Title": "FormMenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FormMenuPrincipal.cs",
               "RelativeDocumentMoniker": "Padarosa\\FormMenuPrincipal.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FormMenuPrincipal.cs",
               "RelativeToolTip": "Padarosa\\FormMenuPrincipal.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAnwCcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T19:23:06.621Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "FormMenuPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FormMenuPrincipal.cs",
               "RelativeDocumentMoniker": "Padarosa\\FormMenuPrincipal.cs",
@@ -231,19 +246,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "FrmCaixa.cs [Design]",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmCaixa.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmCaixa.cs",
               "ToolTip": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmCaixa.cs [Design]",
               "RelativeToolTip": "Padarosa\\FrmCaixa.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T19:36:36.954Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-07-21T19:36:36.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "FrmComandas.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\FrmComandas.cs",
               "RelativeDocumentMoniker": "Padarosa\\FrmComandas.cs",
@@ -251,12 +265,11 @@
               "RelativeToolTip": "Padarosa\\FrmComandas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T19:46:44.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T19:46:44.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "OrdemComanda.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Model\\OrdemComanda.cs",
               "RelativeDocumentMoniker": "Padarosa\\Model\\OrdemComanda.cs",
@@ -264,12 +277,11 @@
               "RelativeToolTip": "Padarosa\\Model\\OrdemComanda.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T17:46:23.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T17:46:23.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Categoria.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Model\\Categoria.cs",
               "RelativeDocumentMoniker": "Padarosa\\Model\\Categoria.cs",
@@ -277,12 +289,11 @@
               "RelativeToolTip": "Padarosa\\Model\\Categoria.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAwwBgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T17:46:40.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T17:46:40.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Banco.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Model\\Banco.cs",
               "RelativeDocumentMoniker": "Padarosa\\Model\\Banco.cs",
@@ -290,12 +301,11 @@
               "RelativeToolTip": "Padarosa\\Model\\Banco.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAxwBEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T18:06:40.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T18:06:40.099Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\sergio.omsantos\\source\\repos\\Padarosa\\Padarosa\\Form1.cs",
               "RelativeDocumentMoniker": "Padarosa\\Form1.cs",
@@ -303,8 +313,7 @@
               "RelativeToolTip": "Padarosa\\Form1.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAcwDMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T17:45:26.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-21T17:45:26.805Z"
             }
           ]
         }

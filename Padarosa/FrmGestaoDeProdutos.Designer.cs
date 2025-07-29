@@ -47,11 +47,11 @@
             this.lblPreco = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.lblNomeProduto = new System.Windows.Forms.Label();
-            this.dgvUsuarios = new System.Windows.Forms.DataGridView();
+            this.dgvProdutos = new System.Windows.Forms.DataGridView();
             this.grbApagar.SuspendLayout();
             this.grbEdicao.SuspendLayout();
             this.grbCadastroProdutos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).BeginInit();
             this.SuspendLayout();
             // 
             // grbApagar
@@ -85,9 +85,10 @@
             this.btnApagarProduto.Location = new System.Drawing.Point(617, 19);
             this.btnApagarProduto.Name = "btnApagarProduto";
             this.btnApagarProduto.Size = new System.Drawing.Size(131, 30);
-            this.btnApagarProduto.TabIndex = 0;
+            this.btnApagarProduto.TabIndex = 9;
             this.btnApagarProduto.Text = "Apagar";
             this.btnApagarProduto.UseVisualStyleBackColor = false;
+            this.btnApagarProduto.Click += new System.EventHandler(this.btnApagarProduto_Click);
             // 
             // grbEdicao
             // 
@@ -114,9 +115,10 @@
             this.btnEditarProduto.Location = new System.Drawing.Point(19, 137);
             this.btnEditarProduto.Name = "btnEditarProduto";
             this.btnEditarProduto.Size = new System.Drawing.Size(344, 39);
-            this.btnEditarProduto.TabIndex = 6;
+            this.btnEditarProduto.TabIndex = 8;
             this.btnEditarProduto.Text = "Editar";
             this.btnEditarProduto.UseVisualStyleBackColor = false;
+            this.btnEditarProduto.Click += new System.EventHandler(this.btnEditarProduto_Click);
             // 
             // txbEditarPreco
             // 
@@ -124,16 +126,15 @@
             this.txbEditarPreco.Location = new System.Drawing.Point(151, 66);
             this.txbEditarPreco.Name = "txbEditarPreco";
             this.txbEditarPreco.Size = new System.Drawing.Size(212, 29);
-            this.txbEditarPreco.TabIndex = 5;
+            this.txbEditarPreco.TabIndex = 6;
             // 
             // txbEditarCategoria
             // 
             this.txbEditarCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbEditarCategoria.Location = new System.Drawing.Point(151, 100);
             this.txbEditarCategoria.Name = "txbEditarCategoria";
-            this.txbEditarCategoria.PasswordChar = '•';
             this.txbEditarCategoria.Size = new System.Drawing.Size(212, 31);
-            this.txbEditarCategoria.TabIndex = 4;
+            this.txbEditarCategoria.TabIndex = 7;
             // 
             // txbEditarProduto
             // 
@@ -141,13 +142,13 @@
             this.txbEditarProduto.Location = new System.Drawing.Point(151, 32);
             this.txbEditarProduto.Name = "txbEditarProduto";
             this.txbEditarProduto.Size = new System.Drawing.Size(212, 29);
-            this.txbEditarProduto.TabIndex = 3;
+            this.txbEditarProduto.TabIndex = 5;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("MV Boli", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 65);
+            this.label1.Location = new System.Drawing.Point(21, 71);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 21);
             this.label1.TabIndex = 2;
@@ -197,7 +198,7 @@
             this.btnCadastrarProduto.Location = new System.Drawing.Point(19, 137);
             this.btnCadastrarProduto.Name = "btnCadastrarProduto";
             this.btnCadastrarProduto.Size = new System.Drawing.Size(344, 39);
-            this.btnCadastrarProduto.TabIndex = 6;
+            this.btnCadastrarProduto.TabIndex = 4;
             this.btnCadastrarProduto.Text = "Cadastrar";
             this.btnCadastrarProduto.UseVisualStyleBackColor = false;
             this.btnCadastrarProduto.Click += new System.EventHandler(this.btnCadastrarProduto_Click);
@@ -208,16 +209,15 @@
             this.txbCadastrarPreco.Location = new System.Drawing.Point(151, 66);
             this.txbCadastrarPreco.Name = "txbCadastrarPreco";
             this.txbCadastrarPreco.Size = new System.Drawing.Size(212, 29);
-            this.txbCadastrarPreco.TabIndex = 5;
+            this.txbCadastrarPreco.TabIndex = 2;
             // 
             // txbCadastrarCategoria
             // 
             this.txbCadastrarCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbCadastrarCategoria.Location = new System.Drawing.Point(151, 100);
             this.txbCadastrarCategoria.Name = "txbCadastrarCategoria";
-            this.txbCadastrarCategoria.PasswordChar = '•';
             this.txbCadastrarCategoria.Size = new System.Drawing.Size(212, 31);
-            this.txbCadastrarCategoria.TabIndex = 4;
+            this.txbCadastrarCategoria.TabIndex = 3;
             // 
             // txbCadastrarProdutos
             // 
@@ -225,7 +225,8 @@
             this.txbCadastrarProdutos.Location = new System.Drawing.Point(151, 32);
             this.txbCadastrarProdutos.Name = "txbCadastrarProdutos";
             this.txbCadastrarProdutos.Size = new System.Drawing.Size(212, 29);
-            this.txbCadastrarProdutos.TabIndex = 3;
+            this.txbCadastrarProdutos.TabIndex = 1;
+            this.txbCadastrarProdutos.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txbCadastrarProdutos_KeyDown);
             // 
             // lblPreco
             // 
@@ -257,19 +258,20 @@
             this.lblNomeProduto.TabIndex = 0;
             this.lblNomeProduto.Text = "Produto";
             // 
-            // dgvUsuarios
+            // dgvProdutos
             // 
-            this.dgvUsuarios.AllowUserToAddRows = false;
-            this.dgvUsuarios.AllowUserToDeleteRows = false;
-            this.dgvUsuarios.AllowUserToResizeColumns = false;
-            this.dgvUsuarios.AllowUserToResizeRows = false;
-            this.dgvUsuarios.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsuarios.Location = new System.Drawing.Point(44, 21);
-            this.dgvUsuarios.Name = "dgvUsuarios";
-            this.dgvUsuarios.ReadOnly = true;
-            this.dgvUsuarios.Size = new System.Drawing.Size(754, 277);
-            this.dgvUsuarios.TabIndex = 9;
+            this.dgvProdutos.AllowUserToAddRows = false;
+            this.dgvProdutos.AllowUserToDeleteRows = false;
+            this.dgvProdutos.AllowUserToResizeColumns = false;
+            this.dgvProdutos.AllowUserToResizeRows = false;
+            this.dgvProdutos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvProdutos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProdutos.Location = new System.Drawing.Point(44, 21);
+            this.dgvProdutos.Name = "dgvProdutos";
+            this.dgvProdutos.ReadOnly = true;
+            this.dgvProdutos.Size = new System.Drawing.Size(754, 277);
+            this.dgvProdutos.TabIndex = 9;
+            this.dgvProdutos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProdutos_CellClick);
             // 
             // FrmGestaoDeProdutos
             // 
@@ -279,7 +281,7 @@
             this.Controls.Add(this.grbApagar);
             this.Controls.Add(this.grbEdicao);
             this.Controls.Add(this.grbCadastroProdutos);
-            this.Controls.Add(this.dgvUsuarios);
+            this.Controls.Add(this.dgvProdutos);
             this.Name = "FrmGestaoDeProdutos";
             this.Text = "FrmGestaoDeProdutos";
             this.grbApagar.ResumeLayout(false);
@@ -288,7 +290,7 @@
             this.grbEdicao.PerformLayout();
             this.grbCadastroProdutos.ResumeLayout(false);
             this.grbCadastroProdutos.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProdutos)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -314,6 +316,6 @@
         private System.Windows.Forms.Label lblPreco;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.Label lblNomeProduto;
-        private System.Windows.Forms.DataGridView dgvUsuarios;
+        private System.Windows.Forms.DataGridView dgvProdutos;
     }
 }
