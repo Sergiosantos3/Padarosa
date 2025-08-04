@@ -16,11 +16,22 @@ namespace Padarosa
         // Variaveis globais:
         Model.Usuario usuario;
         Model.Produtos produtos = new Produtos();
+        Model.Categoria categoria = new Model.Categoria();
         public FrmGestaoDeProdutos(Model.Usuario usuario)
         {
             InitializeComponent();
             this.usuario = usuario;
             AtualizarDgv();
+
+
+            //Obter as categorias do banco
+            DataTable resultadoCategoria = categoria.Listar();
+            foreach (DataRow linha in resultadoCategoria.Rows)
+            {
+                // Adicionarao combobox
+                cmbCategoriaCadastrar.Items.Add($"{linha["id"]} - {linha["nome"]}");
+                cmbCategoriaEditar.Items.Add($"{linha["id"]} - {linha["nome"]}");
+            }
         }
         public void AtualizarDgv()
         {
@@ -52,7 +63,8 @@ namespace Padarosa
                 Model.Produtos produto = new Model.Produtos();
                 produto.Nome = txbCadastrarProdutos.Text;
                 produto.preco = double.Parse(txbCadastrarPreco.Text);
-                produto.id_categoria = int.Parse(txbCadastrarCategoria.Text);
+                // obter apenas o id da categoria do combobox
+                produto.id_categoria = int.Parse(txbCadastrarPreco.Text.Split('-')[0]);
                 produto.id_respCadastro = usuario.Id;
 
                 if (produto.Cadatrar())
@@ -61,7 +73,7 @@ namespace Padarosa
                     // Limpar os campos de cadastro
                     txbCadastrarProdutos.Clear();
                     txbCadastrarPreco.Clear();
-                    txbEditarCategoria.Clear();
+                    cmbCategoriaCadastrar.SelectedIndex = -1;
                     //Atualiza o dgv (reexecutando o select);
                     AtualizarDgv();
 
@@ -87,7 +99,7 @@ namespace Padarosa
                 MessageBox.Show("O Nome informado é invalido!", "ERRO",
                      MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (txbEditarCategoria.Text.Length <= 0)
+            else if (cmbCategoriaEditar.Text.Length <= 0)
             {
                 MessageBox.Show("A categoria nao pode ser null cacacteres!", "ERRO",
                     MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -99,7 +111,7 @@ namespace Padarosa
                 Model.Produtos produto = new Model.Produtos();
                 produto.Nome = txbEditarProduto.Text;
                 produto.preco = double.Parse(txbEditarPreco.Text);
-                produto.id_categoria = int.Parse(txbEditarCategoria.Text);
+                produto.id_categoria = int.Parse(cmbCategoriaEditar.Text.Split('-')[0]);
                 produto.id_respCadastro = usuario.Id;
 
                 if (produto.Modificar())
@@ -108,7 +120,7 @@ namespace Padarosa
                     // Limpar os campos de cadastro
                     txbCadastrarProdutos.Clear();
                     txbCadastrarPreco.Clear();
-                    txbEditarCategoria.Clear();
+                    cmbCategoriaCadastrar.SelectedIndex = - 1;
                     //Atualiza o dgv (reexecutando o select);
                     AtualizarDgv();
 
@@ -137,7 +149,7 @@ namespace Padarosa
                     grbEdicao.Enabled = false;
                     txbEditarProduto.Clear();
                     txbEditarPreco.Clear();
-                    txbEditarCategoria.Clear();
+                    cmbCategoriaCadastrar.SelectedIndex = - 1 ;
                     lblApagar.Text = "selecione o produto que deseja apagar";
                 }
                 else
@@ -159,7 +171,7 @@ namespace Padarosa
             // atribuir os dados da linha selecionada no grbEditar
             txbEditarProduto.Text = this.produtos.Nome;
             txbEditarPreco.Text = this.produtos.preco.ToString();
-            txbEditarCategoria.Text = this.produtos.id_categoria.ToString();
+            cmbCategoriaEditar.Text = this.produtos.id_categoria.ToString();
             // Ativar o grbEditor
             grbEdicao.Enabled = true;
 

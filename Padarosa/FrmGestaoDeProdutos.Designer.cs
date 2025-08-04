@@ -34,7 +34,6 @@
             this.grbEdicao = new System.Windows.Forms.GroupBox();
             this.btnEditarProduto = new System.Windows.Forms.Button();
             this.txbEditarPreco = new System.Windows.Forms.TextBox();
-            this.txbEditarCategoria = new System.Windows.Forms.TextBox();
             this.txbEditarProduto = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,12 +41,13 @@
             this.grbCadastroProdutos = new System.Windows.Forms.GroupBox();
             this.btnCadastrarProduto = new System.Windows.Forms.Button();
             this.txbCadastrarPreco = new System.Windows.Forms.TextBox();
-            this.txbCadastrarCategoria = new System.Windows.Forms.TextBox();
             this.txbCadastrarProdutos = new System.Windows.Forms.TextBox();
             this.lblPreco = new System.Windows.Forms.Label();
             this.lblCategoria = new System.Windows.Forms.Label();
             this.lblNomeProduto = new System.Windows.Forms.Label();
             this.dgvProdutos = new System.Windows.Forms.DataGridView();
+            this.cmbCategoriaCadastrar = new System.Windows.Forms.ComboBox();
+            this.cmbCategoriaEditar = new System.Windows.Forms.ComboBox();
             this.grbApagar.SuspendLayout();
             this.grbEdicao.SuspendLayout();
             this.grbCadastroProdutos.SuspendLayout();
@@ -92,9 +92,9 @@
             // 
             // grbEdicao
             // 
+            this.grbEdicao.Controls.Add(this.cmbCategoriaEditar);
             this.grbEdicao.Controls.Add(this.btnEditarProduto);
             this.grbEdicao.Controls.Add(this.txbEditarPreco);
-            this.grbEdicao.Controls.Add(this.txbEditarCategoria);
             this.grbEdicao.Controls.Add(this.txbEditarProduto);
             this.grbEdicao.Controls.Add(this.label1);
             this.grbEdicao.Controls.Add(this.label2);
@@ -127,14 +127,6 @@
             this.txbEditarPreco.Name = "txbEditarPreco";
             this.txbEditarPreco.Size = new System.Drawing.Size(212, 29);
             this.txbEditarPreco.TabIndex = 6;
-            // 
-            // txbEditarCategoria
-            // 
-            this.txbEditarCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbEditarCategoria.Location = new System.Drawing.Point(151, 100);
-            this.txbEditarCategoria.Name = "txbEditarCategoria";
-            this.txbEditarCategoria.Size = new System.Drawing.Size(212, 31);
-            this.txbEditarCategoria.TabIndex = 7;
             // 
             // txbEditarProduto
             // 
@@ -176,9 +168,9 @@
             // 
             // grbCadastroProdutos
             // 
+            this.grbCadastroProdutos.Controls.Add(this.cmbCategoriaCadastrar);
             this.grbCadastroProdutos.Controls.Add(this.btnCadastrarProduto);
             this.grbCadastroProdutos.Controls.Add(this.txbCadastrarPreco);
-            this.grbCadastroProdutos.Controls.Add(this.txbCadastrarCategoria);
             this.grbCadastroProdutos.Controls.Add(this.txbCadastrarProdutos);
             this.grbCadastroProdutos.Controls.Add(this.lblPreco);
             this.grbCadastroProdutos.Controls.Add(this.lblCategoria);
@@ -210,14 +202,6 @@
             this.txbCadastrarPreco.Name = "txbCadastrarPreco";
             this.txbCadastrarPreco.Size = new System.Drawing.Size(212, 29);
             this.txbCadastrarPreco.TabIndex = 2;
-            // 
-            // txbCadastrarCategoria
-            // 
-            this.txbCadastrarCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbCadastrarCategoria.Location = new System.Drawing.Point(151, 100);
-            this.txbCadastrarCategoria.Name = "txbCadastrarCategoria";
-            this.txbCadastrarCategoria.Size = new System.Drawing.Size(212, 31);
-            this.txbCadastrarCategoria.TabIndex = 3;
             // 
             // txbCadastrarProdutos
             // 
@@ -273,6 +257,22 @@
             this.dgvProdutos.TabIndex = 9;
             this.dgvProdutos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvProdutos_CellClick);
             // 
+            // cmbCategoriaCadastrar
+            // 
+            this.cmbCategoriaCadastrar.FormattingEnabled = true;
+            this.cmbCategoriaCadastrar.Location = new System.Drawing.Point(151, 103);
+            this.cmbCategoriaCadastrar.Name = "cmbCategoriaCadastrar";
+            this.cmbCategoriaCadastrar.Size = new System.Drawing.Size(212, 28);
+            this.cmbCategoriaCadastrar.TabIndex = 5;
+            // 
+            // cmbCategoriaEditar
+            // 
+            this.cmbCategoriaEditar.FormattingEnabled = true;
+            this.cmbCategoriaEditar.Location = new System.Drawing.Point(151, 104);
+            this.cmbCategoriaEditar.Name = "cmbCategoriaEditar";
+            this.cmbCategoriaEditar.Size = new System.Drawing.Size(212, 28);
+            this.cmbCategoriaEditar.TabIndex = 6;
+            // 
             // FrmGestaoDeProdutos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,7 +303,6 @@
         private System.Windows.Forms.GroupBox grbEdicao;
         private System.Windows.Forms.Button btnEditarProduto;
         private System.Windows.Forms.TextBox txbEditarPreco;
-        private System.Windows.Forms.TextBox txbEditarCategoria;
         private System.Windows.Forms.TextBox txbEditarProduto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -311,11 +310,12 @@
         private System.Windows.Forms.GroupBox grbCadastroProdutos;
         private System.Windows.Forms.Button btnCadastrarProduto;
         private System.Windows.Forms.TextBox txbCadastrarPreco;
-        private System.Windows.Forms.TextBox txbCadastrarCategoria;
         private System.Windows.Forms.TextBox txbCadastrarProdutos;
         private System.Windows.Forms.Label lblPreco;
         private System.Windows.Forms.Label lblCategoria;
         private System.Windows.Forms.Label lblNomeProduto;
         private System.Windows.Forms.DataGridView dgvProdutos;
+        private System.Windows.Forms.ComboBox cmbCategoriaCadastrar;
+        private System.Windows.Forms.ComboBox cmbCategoriaEditar;
     }
 }
