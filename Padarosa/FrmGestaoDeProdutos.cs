@@ -64,7 +64,7 @@ namespace Padarosa
                 produto.Nome = txbCadastrarProdutos.Text;
                 produto.preco = double.Parse(txbCadastrarPreco.Text);
                 // obter apenas o id da categoria do combobox
-                produto.id_categoria = int.Parse(txbCadastrarPreco.Text.Split('-')[0]);
+                produto.id_categoria = int.Parse(cmbCategoriaCadastrar.Text.Split('-')[0]);
                 produto.id_respCadastro = usuario.Id;
 
                 if (produto.Cadatrar())
@@ -113,6 +113,7 @@ namespace Padarosa
                 produto.preco = double.Parse(txbEditarPreco.Text);
                 produto.id_categoria = int.Parse(cmbCategoriaEditar.Text.Split('-')[0]);
                 produto.id_respCadastro = usuario.Id;
+                produto.Id = this.produtos.Id;
 
                 if (produto.Modificar())
                 {

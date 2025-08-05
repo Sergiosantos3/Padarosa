@@ -34,3 +34,4 @@ C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.pdb
 C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.FrmUsuarios.resources
 C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.FrmGestaoDeProdutos.resources
 C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.FrmComandas.resources
+C:\Users\sergio.omsantos\source\repos\Padarosa\Padarosa\obj\Debug\Padarosa.FrmCaixa.resources

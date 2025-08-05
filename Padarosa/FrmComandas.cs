@@ -53,8 +53,19 @@ namespace Padarosa
         {
             int linhaSelecionada = dgvComnadas.SelectedCells[0].RowIndex;
             //atribuir o nome do txb
-            txbProduto.Text = dgvComnadas.Rows[linhaSelecionada].ToString();
+            txbProduto.Text = dgvComnadas.Rows[linhaSelecionada].Cells[0].Value.ToString();
             txbNome.Text = dgvComnadas.Rows[linhaSelecionada].Cells[1].Value.ToString();
+        }
+        public void ResetarCampos()
+        {
+            grbInformaçoes.Enabled = true;
+            grbLançamento.Enabled = false ;
+
+            // Limpar os campos
+            txbComanda.Clear();
+            txbNome.Clear();
+            txbProduto.Clear();
+            txbquantidade.Clear();
         }
 
         private void btnLancar_Click(object sender, EventArgs e)
@@ -66,17 +77,37 @@ namespace Padarosa
             else
             {
                 DialogResult r = MessageBox.Show("Tem certeza que deseja lançar " +
-                    $"{txbquantidade.Text} unidades do {txbNome.Text} na comanda {txbComanda.Text}");
+                    $"{txbquantidade.Text} unidades do {txbNome.Text} na comanda {txbComanda.Text}? ", 
+                    "ATENÇÃO" ,  MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 // se sim
                 if ( r == DialogResult.Yes )
                 {
-                    MessageBox.Show("Lançamento efetuado com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    ordemComanda.IdResp = usuario.Id;
+                    ordemComanda.IdProduto = int.Parse(txbProduto.Text);
+                    ordemComanda.IdFicha = int.Parse(txbComanda.Text);
+                    ordemComanda.quantidade = int.Parse(txbquantidade.Text);
+                    ordemComanda.Situacao = 1;
+                    if (ordemComanda.Cadatrar())
+                    {
+                        MessageBox.Show("Lançamento efetuado com sucesso", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Falha ao efetuar o lançamento", "ERRO", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+
+                    
                 }
                 else
                 {
                     //resetar os campos
                 }
             }
+        }
+
+        private void btnCamcelar_Click(object sender, EventArgs e)
+        {
+            ResetarCampos();
         }
     }
 }

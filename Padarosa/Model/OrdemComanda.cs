@@ -20,6 +20,25 @@ namespace Padarosa.Model
         public DateTime DataAdic {  get; set; }
         public int Situacao {  get; set; }
 
+        public DataTable BusacrFicha()
+        {
+            string comando = "SELECT * FROM view_fichas WHERE Ficha = @IdFicha;";
+
+            Banco conexaoBD = new Banco();
+            MySqlConnection con = conexaoBD.ObterConexao();
+            MySqlCommand cmd = new MySqlCommand(comando, con);
+
+            cmd.Parameters.AddWithValue("@IdFicha", IdFicha);
+
+            cmd.Prepare();
+            // Declarar tabela que irá receber o resultado:
+            DataTable tabela = new DataTable();
+            // Preencher a tabela com o resultado da consulta
+            tabela.Load(cmd.ExecuteReader());
+            conexaoBD.Desconectar(con);
+            return tabela;
+        }
+
         public DataTable Listar()
         {
             string comando = "SELECT * FROM ordens_comandas;";
@@ -49,6 +68,40 @@ namespace Padarosa.Model
             cmd.Parameters.AddWithValue("@quantidade", quantidade);
             cmd.Parameters.AddWithValue("@id_resp", IdResp);
             cmd.Parameters.AddWithValue("@situacao", Situacao);
+            cmd.Prepare();
+
+            // para impedir que o programa quebre 
+            try
+            {
+                if (cmd.ExecuteNonQuery() == 0)
+                {
+                    conexaoBD.Desconectar(con);
+                    return false;
+                }
+                else
+                {
+                    conexaoBD.Desconectar(con);
+                    return true;
+                }
+            }
+            // se der erro, ele ira desconectar do bd
+            catch
+            {
+                conexaoBD.Desconectar(con);
+                return false;
+            }
+        }
+        public bool Encerrar()
+        {
+            string comando = "UPDATE ordens_comandas " +
+                "SET situacao = 0 WHERE id_ficha = @id_ficha AND situacao = 1";
+            Banco conexaoBD = new Banco();
+            MySqlConnection con = conexaoBD.ObterConexao();
+            MySqlCommand cmd = new MySqlCommand(comando, con);
+
+            cmd.Parameters.AddWithValue("@id_ficha", IdFicha);
+            
+            cmd.Prepare();
 
             // para impedir que o programa quebre 
             try
