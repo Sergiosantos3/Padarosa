@@ -43,6 +43,8 @@
             // 
             // dgvCaixa
             // 
+            this.dgvCaixa.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvCaixa.BackgroundColor = System.Drawing.Color.White;
             this.dgvCaixa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCaixa.Location = new System.Drawing.Point(-1, 61);
             this.dgvCaixa.Name = "dgvCaixa";

@@ -19,6 +19,13 @@ namespace Padarosa
             InitializeComponent();
             this.usuario = usuario;
             lblUsuario.Text = $"Você está logado como: {usuario.NomeCompleto}";
+
+            // Ocultar os botoes de usuarios
+            if(usuario.Id != 1)
+            {
+                btnGestaoProdutos.Visible = false;
+                btnGestaoUsuarios.Visible = false;
+            }
         }
 
         private void btnGestaoProdutos_Click(object sender, EventArgs e)
@@ -43,6 +50,11 @@ namespace Padarosa
         {
             FrmUsuarios frmusuarios = new FrmUsuarios(usuario);
             frmusuarios.ShowDialog();  
+        }
+
+        private void FormMenuPrincipal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
